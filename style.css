@@ -87,6 +87,7 @@
 .ant-carousel-element {
     display: block;
     flex: 0 0 auto;
+    position: relative;
 }
 
 
@@ -244,4 +245,38 @@ div.item-menu .add-list {
     width: 15px;
     height: 15px;
     display: inline-block;
+}
+
+
+/*Маркеры на товаре*/
+
+div.markers {
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+div.markers .marker-1 {
+    left: 0;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: #D8F8EA;
+    color: #7FE8BA;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div.markers .marker-2 {
+    left: 150px;
+    display: block;
+    float: left;
+    background: #FCF4ED;
+    color: #EAB485;
+    padding: 5px;
+    border-radius: 5px;
 }
