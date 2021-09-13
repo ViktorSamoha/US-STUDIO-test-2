@@ -49,7 +49,7 @@
 }
 
 .ant-carousel-element {
-    width: 220px;
+    width: 230px;
     height: 250px;
     text-align: left;
     border: 1px solid rgb(231, 228, 228);
@@ -145,7 +145,7 @@ span.ant-dot {
 
 div.item-description p {
     text-size-adjust: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans Condensed', sans-serif;
     font-size: 14px;
     text-align: left;
     margin-top: 5px;
@@ -155,7 +155,7 @@ div.item-description p {
 
 div.item-description h3 {
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans Condensed', sans-serif;
     font-size: 15px;
     font-weight: 100;
     margin-bottom: 5px;
@@ -179,7 +179,7 @@ div.item-description label img {
 
 div.item-price h2 {
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     display: inline-block;
@@ -189,7 +189,7 @@ div.item-price h2 {
 
 div.item-price p {
     text-align: left;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans', sans-serif;
     font-size: 15px;
     font-weight: 100;
     text-decoration-line: line-through;
@@ -211,32 +211,33 @@ div.item-menu button {
     font-weight: bold;
     height: 50px;
     width: 150px;
-    display: inline-block;
+    display: block;
+    float: left;
 }
 
 div.item-menu .add-favorite {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
-    opacity: 0.3;
     padding-right: 10px;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 div.item-menu .add-list {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
-    opacity: 0.3;
 }
 
 
 /*заголовок страницы*/
 
 #header h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans', sans-serif;
     font-weight: 100;
-    color: #444444;
+    font-size: 40px;
+    color: #888888;
     margin-left: 5%;
     display: inline-block;
     padding-right: 5px;
@@ -258,7 +259,7 @@ div.markers {
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DejaVu Sans Condensed', sans-serif;
 }
 
 div.markers .marker-1 {
